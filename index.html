@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Bài Kiểm Tra Tiếng Trung</title>
+    
+</head>
+<body>
+<header>
+    <h2>Bài Kiểm Tra Tiếng Trung</h1>
+        <p class="crep">Code:<span>Nguyễn Thái Toàn</span></p>
+    
+    <nav>
+        <ul>
+            <li><a href="#phan1">Phần I</a></li>
+        </ul>
+        <ul>
+            <li><a href="#phan2">Phần II</a></li>
+        </ul>
+        <ul>
+            <li><a href="#phan3">Phần III</a></li>
+        </ul>
+        <ul>
+            <li><a href="#phan4">Phần IV</a></li>
+        </ul>
+        <ul>
+            <li><a href="#phan5">Phần V</a></li>
+        </ul>
+    </nav>
+   
+
+    <button onclick="history.go(0); ">Làm lại</button>
+    <div id="ket_qua"><button onclick="chamDiem()">Nộp bài</button></div>
+</header>
+<button id="toggleHeader">
+    <i class="fa-solid fa-bars"></i>
+</button>
+
+<div class="container">
+    <h2 id="phan1">Phần I A: Tìm từ đồng nghĩa</h2>
+    
+    <div id="cau_hoi_a"></div>
+
+    <h2>Phần I B: Tìm từ trái nghĩa</h2>
+    <div id="cau_hoi_b"></div>
+
+    <h2 id="phan2">Phần II: Hoàn thành câu</h2>
+    <div id="cau_hoi_c"></div>
+
+    <h2 id="phan3">Phần III: Sắp sếp thành nghĩa</h2>
+    <div id="cau_hoi_d"></div>
+
+    <h2 id="phan4">Phần VI: Đọc hiểu</h2>
+    <p>我的学习习惯
+
+        我是一名学生，我很喜欢学习。我每天早上六点起床，然后复习昨天学过的内容。上午我在学校上课，老师讲得很清楚，我也会认真听课，记笔记。中午休息的时候，我会看看书或者听听中文歌曲。
+        
+        下午放学以后，我一般去图书馆做作业。有时候，我和朋友一起学习，我们互相帮助。如果遇到不懂的问题，我会问老师或者在网上查资料。
+        
+        为了提高我的汉语水平，我每天都会记生词，还会用新学的词语造句。我也喜欢看中文电影和电视剧，这样可以帮助我提高听力。
+        
+        虽然学习有时候很难，但是我觉得学习很有意思。我希望我的汉语越来越好，以后可以去中国留学！
+        
+        </p>
+    <div id="cau_hoi_e"></div>
+
+    <h2 id="phan5">Phần V: Nghe và trả lời câu hỏi</h2>
+    <p>
+        <audio controls>
+            <source src="./audio/speech (2).mp3" type="audio/mpeg">
+            Trình duyệt của bạn không hỗ trợ thẻ audio.
+        </audio>
+       
+    </p>
+    <div id="cau_hoi_f"></div>
+    
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
